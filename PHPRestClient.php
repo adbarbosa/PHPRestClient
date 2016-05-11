@@ -22,7 +22,6 @@ class PHPRestClient
 			switch (strtoupper(trim($method,' ')))
 			{
 				case 'GET':
-					// TODO: Add Code here
 					$this->method = 'GET';
 					break;
 
@@ -35,7 +34,7 @@ class PHPRestClient
 					break;
 
 				case 'DELETE':
-					// TODO: Add Code here
+					$this->method = 'DELETE';
 					break;
 
 				default:
